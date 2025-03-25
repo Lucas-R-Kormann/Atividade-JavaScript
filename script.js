@@ -1,12 +1,8 @@
-let n1 = 10;
-let delay = 0;
+let original = "JavaScript";
+let reversed = original.split('').reverse().join('');
 
-while(n1 >= 1) {
-        console.log(n1);
-        n1--
-   
+console.log(reversed);
 
-}
 
 
 
