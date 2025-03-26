@@ -1,8 +1,8 @@
-let numero = parseInt(prompt('Insira um número e o sistema retornará o dobro deste valor'));
+let numero = 2;
 
-numeroDobrado = (numero * 2);
-
-console.log(numeroDobrado);
-  
+while (numero <= 20) {
+  console.log(numero);
+  numero += 2;
+}
 
 
