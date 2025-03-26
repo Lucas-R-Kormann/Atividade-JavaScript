@@ -1,8 +1,7 @@
-let soma = 0;
-let i = 1
-while(i<= 100) {
-    soma = soma + i;
-    i++;
-}
+    let azul = ("azul")
+    console.log("Substituir palavra Azul por Vermelho!")
+    let texto = prompt('Digite uma frase ou texto com a palavra azul:')
+    console.log(texto.replace(azul, "vermelho"));
 
-console.log("A soma é: " + soma);
+
+
