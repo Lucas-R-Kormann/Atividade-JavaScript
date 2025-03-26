@@ -1,5 +1,8 @@
-let Celsius = parseInt(prompt("Digite os graus em Celsius"));
+let soma = 0;
+let i = 1
+while(i<= 100) {
+    soma = soma + i;
+    i++;
+}
 
-let Farenheit = (Celsius * 9/5) + 32
-
-console.log("A conversão de Celsius para Farenheit é: " + Farenheit);
+console.log("A soma é: " + soma);
