@@ -1,8 +1,9 @@
-let numero = 2;
-
-while (numero <= 20) {
-  console.log(numero);
-  numero += 2;
-}
-
+function capitalizar(palavra) {
+    if (!palavra) return ""; 
+    return palavra.charAt(0).toUpperCase() + palavra.slice(1);
+  }
+  
+  console.log(capitalizar("javascript")); 
+  console.log(capitalizar("exemplo"));   
+ 
 
