@@ -1,7 +1,6 @@
 let str = "JavaScript";
-let n = str.lenght;
-console.log(n);
-
+let n = str.length;
+console.log(n)
 
 
 
