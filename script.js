@@ -1,17 +1,14 @@
-function contarVogais(palavra) {
-    const vogais = "aeiouAEIOU"; 
-    let contador = 0;
+function somarArray(numeros) {
+    let soma = 0;
   
-    for (let letra of palavra) {
-      if (vogais.includes(letra)) {
-        contador++;
-      }
+    for (let numero of numeros) {
+      soma += numero;
     }
-    return contador;
+  
+    return soma;
   }
-  console.log(contarVogais("programacao")); 
-  console.log(contarVogais("Javascript")); 
-  console.log(contarVogais("Vogal")); 
-
+  console.log(somarArray([1, 2, 3, 4, 5]));
+  console.log(somarArray([10, 20, 30]));
+  
 
 
