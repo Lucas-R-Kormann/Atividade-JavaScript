@@ -1,12 +1,6 @@
-class Carro {
-    constructor(marca, modelo, ano) {
-        this.marca = marca;
-        this.modelo = modelo;
-        this.ano = ano;
-    }
-}
+let nome = prompt();
 
-const carro = new Carro('Nissan', 'Versa', '2022');
+let mensagem = ('Olá ' + nome);
 
-console.log(carro.modelo)
+console.log(mensagem)
 
