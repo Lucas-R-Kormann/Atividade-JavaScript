@@ -1,9 +1,13 @@
-function capitalizar(palavra) {
-    if (!palavra) return ""; 
-    return palavra.charAt(0).toUpperCase() + palavra.slice(1);
-  }
+function anoBissexto() {
+    
+    const ano = parseInt(prompt("Digite o ano para verificar se é bissexto:"));
   
-  console.log(capitalizar("javascript")); 
-  console.log(capitalizar("exemplo"));   
+    if ((ano % 4 === 0 && ano % 100 !== 0) || ano % 400 === 0) {
+      console.log(`${ano} é um ano bissexto.`);
+    } else {
+      console.log(`${ano} não é um ano bissexto.`);
+    }
+  }
+  anoBissexto();
  
 
