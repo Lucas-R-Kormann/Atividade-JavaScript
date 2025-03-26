@@ -1,5 +1,5 @@
 let str = "JavaScript";
-let n = str.length;
+let n = str.lenght;
 console.log(n);
 
 
