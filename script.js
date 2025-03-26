@@ -1,5 +1,9 @@
-function palindrome(str) {
-    return true;
-}
+let numero = prompt();
 
-console.log(palindrome("arara"))
+    if (numero > 0){
+        console.log("O número é positivo")
+    } else if(numero == 0){
+        console.log("O número é 0")
+    } else {
+        console.log("O número é negativo")
+    }
