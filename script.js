@@ -1,10 +1,8 @@
-let nota = parseInt(prompt('Insira sua nota'))
-
-if(nota >= 6){
-    console.log('Aprovado com a nota: ' + nota)
-} else {
-    console.log('Reprovado com a nota: ' + nota)
-}
+for (let i = 0; i <= 30; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+  }
 
 
 
