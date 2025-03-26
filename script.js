@@ -1,6 +1,9 @@
-const frutas = ["Maçã", "Banana", "Laranja", "Uva", "Abacaxi"];
-
-console.log(frutas[2]); 
+function saudacao(nome, saudacao = "Bem-vindo(a)") {
+    return `${saudacao}, ${nome}!`;
+  }
+  
+  console.log(saudacao("João")); 
+  console.log(saudacao("Maria")); 
 
 
 
